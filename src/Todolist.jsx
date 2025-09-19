@@ -64,7 +64,7 @@ function Todolist(){
     }
      //ui
      return (
-        <div className="border border-3 border-success p-3 m-3">
+        <div className="border border-2 border-success p-3 m-3">
           <input type="text" id="d1"/>
           <button onClick={()=>{add()}}>Add Task</button>
             <ul>
