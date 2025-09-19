@@ -1,5 +1,5 @@
 import React from "react"
-import Todo from "./Todo"
+import Todo from "./Todo";
 import { v4 as uuidv4 } from 'uuid';
 function Todolist(){
   var [todo,settodo]=React.useState([
