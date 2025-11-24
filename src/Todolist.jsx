@@ -64,10 +64,10 @@ function Todolist(){
     }
      //ui
      return (
-        <div className="border border-2 border-success p-3 m-3">
+        <div className="border border-2  p-4 m-4 " style={{backgroundColor:"blanchedalmond"}} >
           <input type="text" id="d1"/>
-          <button onClick={()=>{add()}}>Add Task</button>
-            <ul>
+          <button onClick={()=>{add()}} className="btn btn-primary bg-primary-subtle text-dark ms-3">Add Task</button>
+            <ul className="mt-3">
             {console.log(todo)}
                 {
                     todo.map((todos,i)=>{
