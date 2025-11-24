@@ -19,7 +19,7 @@ function Todolist(){
          status: false,
        },
        {
-        title:"Go to vacation",
+        title:"Go to vacation", 
          id: uuidv4(),
          status: true,
        },
